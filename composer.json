@@ -1,0 +1,19 @@
+{
+  "name": "dusti/dustin-plugin",
+  "description": "awesome starter plugin example",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Dustin",
+      "email": "dustinibrao@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Includes\\": "./includes/"
+    }
+  }
+}
